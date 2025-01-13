@@ -112,7 +112,7 @@ header {
     z-index: 2;
     
   }
-  
+
   .info-box{
     /* display: none; */
     width: 300px;
@@ -226,9 +226,11 @@ header {
       th {
         text-align: start;
         font-size: 14px;
+        color: white;
       }
 
       td {
+        color: white;
         button {
           padding: 0px 4px;
           border-radius: 5px;
@@ -489,6 +491,7 @@ header {
         transition: 0.8s all linear;
         list-style: none;
         box-sizing: border-box;
+        z-index: 2;
 
         li {
           padding: 5px 0px;
