@@ -204,15 +204,6 @@ const Menu = () => {
                 }
             },
             {
-                "id": 23,
-                "product": {
-                    "name": "khichu",
-                    "price": "30",
-                    "type": "gujarati",
-                    "image": "images/product/gujarati/Khichu.jpeg"
-                }
-            },
-            {
                 "id": 24,
                 "product": {
                     "name": "thepla",
@@ -613,15 +604,6 @@ const Menu = () => {
                 }
             },
             {
-                "id": 23,
-                "product": {
-                    "name": "khichu",
-                    "price": "30",
-                    "type": "gujarati",
-                    "image": "images/product/gujarati/Khichu.jpeg"
-                }
-            },
-            {
                 "id": 24,
                 "product": {
                     "name": "thepla",
@@ -820,7 +802,7 @@ const Menu = () => {
                 }
             }
         ]
-);
+    );
     const [display, setDisplay] = useState("none")
     const [foodType] = useState([
         "All", "punjabi", "gujarati", "maharashtrian", "assam", "south indian", "chinese"
@@ -872,6 +854,27 @@ const Menu = () => {
 
     return (
         <div className="pt-4 food-menu-body">
+            <div className="info-web">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13V8m0 8h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <div className="info-box">
+                    <p>
+                        This web application is developed by <strong>Yogesh Devidas Shinde</strong> using ReactJS.
+                        It is a demo project for a restaurant and café e-menu card.
+                    </p>
+                    <p>
+                        We value your suggestions to make this application better.
+                        That’s why we’ve made this app live so you can experience it and let us know what improvements are needed.
+                    </p>
+                    <p>
+                        Please share your suggestions via email at:
+                        <a href="mailto:shindeyogeshd2001@gmail.com">shindeyogeshd2001@gmail.com</a>
+                        or WhatsApp us at:
+                        <a href="tel:+917041065162">+91 70410 65162</a>.
+                    </p>
+                </div>
+            </div>
             <div className="flex justify-between">
                 <section className="varity-section">
                     <button className="varity-sm-btn" onClick={handleVarity}>|||</button>
@@ -926,7 +929,7 @@ const Menu = () => {
                 </div>
             )}
             {/* <img src="images/product/chinese/momos.jpeg" alt="" /> correct way to add img */}
-            
+
         </div>
     );
 };

@@ -29,11 +29,9 @@ const Products = ({ name, price, quantity, typeoff, imge}) => {
                 }
             };
 
-            // Add the new product to the list
             const updatedProducts = [...existingProducts, newProduct];
             setData(updatedProducts);
 
-            // Store the updated products back in localStorage
             localStorage.setItem('cart', JSON.stringify(updatedProducts));
         } else {
             // Product exists, update the quantity

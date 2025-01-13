@@ -1,9 +1,18 @@
+
 /*********************************** Global ***************************************/
 
 * {
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-image: url("https://i.pinimg.com/736x/c0/f6/17/c0f617dfe0d0065d7b84f95d4eb365d4.jpg");
+  background-size: cover; /* Ensures the image covers the entire body */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
 
 button {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -96,6 +105,26 @@ header {
 /************************************ menu ***************************************/
 
 .food-menu-body {
+  .info-web{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    
+  }
+  .info-box{
+    /* display: none; */
+    width: 300px;
+    position: absolute;
+    transform: translate(-300px, -285px);
+    background-color: #808080;
+    padding: 15px;
+    border-radius: 15px;
+    display: none;
+  }
+  .info-web:hover .info-box{
+    display: block;
+  }
   .varity-sm-btn {
     display: none;
     z-index: 50;
@@ -169,11 +198,14 @@ header {
 
 
 .product {
-  background-color: #808080;
+  background-color: #0804047e;
   width: 100% !important;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 15px;
+  backdrop-filter: blur(20px);
+  background-color: #0804047e;
+
 
   .inner {
     padding: 10px;
@@ -268,12 +300,14 @@ header {
       border: 0;
       color: white;
       background-color: rgb(129, 11, 11);
+      z-index: 1;
     }
   
     .inner {
       padding: 10px;
       box-sizing: border-box;
-      background-color: #808080;
+      backdrop-filter: blur(20px);
+      background-color: #0804047e;
       width: 100%;
       display: flex;
       align-items: center;

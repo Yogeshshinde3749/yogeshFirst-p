@@ -10,7 +10,7 @@ import Order from "./components/Order";
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage : `../images/bakground-site/background-food.jpeg`}}>
       <Router> {/* Make sure Router is here */}
         <Routes>
           <Route element={<Header />}>
