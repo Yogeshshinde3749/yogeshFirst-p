@@ -43,6 +43,7 @@ const Cart = () => {
                                     price={e.product?.price}
                                     quantity={e.product?.quantity}
                                     id={e.id}
+                                    image={e.product?.image}
                                     setCartData={setData} // Pass setData to CartProduct to allow updating cart
                                 />
                             ))

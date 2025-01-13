@@ -23,6 +23,7 @@ const Products = ({ name, price, quantity, typeoff, imge}) => {
                     size: size.current.innerText,
                     quantity: counNum, // Use state here instead of ref
                     price: parseFloat(price),
+                    image: imge,
                     totalPrice: parseFloat(price) * counNum, // Update price calculation
                     type: typeoff
                 }

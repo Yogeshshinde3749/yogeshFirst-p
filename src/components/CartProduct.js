@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-const CartProduct = ({ name, price, quantity, id, setCartData }) => {
+const CartProduct = ({ name, price, quantity, id, setCartData,image }) => {
     const named = useRef(null);
     const size = useRef(null);
     const coun = useRef(null);
@@ -44,7 +44,7 @@ const CartProduct = ({ name, price, quantity, id, setCartData }) => {
         <div className="cart-product">
             <button className="delBtn" onClick={deleteHandler}>X</button>
             <div className="inner">
-                <img src="" alt="Product" />
+                <img src={image} alt="Product" />
                 <div className="detail">
                     <table>
                         <tbody>

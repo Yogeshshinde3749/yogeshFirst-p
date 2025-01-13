@@ -44,6 +44,8 @@ jspm_packages/
 
 node_modules                                                                            
 /node_modules
+/build
+build
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/

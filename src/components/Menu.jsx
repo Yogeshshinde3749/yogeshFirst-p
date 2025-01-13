@@ -11,7 +11,7 @@ const Menu = () => {
                     "name": "vadapav",
                     "price": "20",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/vadapav.jpeg"
+                    "image": "images/product/maharastrian/vadapav.jpeg"
                 }
             },
             {
@@ -20,7 +20,7 @@ const Menu = () => {
                     "name": "pav bhaji",
                     "price": "60",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharastrian/pav-bhaji.jpeg"
+                    "image": "images/product/maharastrian/pav-bhaji.jpeg"
                 }
             },
             {
@@ -29,7 +29,7 @@ const Menu = () => {
                     "name": "puran poli",
                     "price": "50",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/puran_poli.jpeg"
+                    "image": "images/product/maharastrian/puran-poli.jpeg"
                 }
             },
             {
@@ -38,7 +38,7 @@ const Menu = () => {
                     "name": "poha",
                     "price": "25",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/poha.jpeg"
+                    "image": "images/product/maharastrian/poha.jpeg"
                 }
             },
             {
@@ -47,7 +47,7 @@ const Menu = () => {
                     "name": "misal",
                     "price": "40",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/misal.jpeg"
+                    "image": "../images/product/maharastrian/misal-pav.jpeg"
                 }
             },
             {
@@ -56,7 +56,7 @@ const Menu = () => {
                     "name": "pithla bhakri",
                     "price": "70",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/pithla_bhakri.jpeg"
+                    "image": "../images/product/maharastrian/pithla-bhakri.jpeg"
                 }
             },
             {
@@ -65,7 +65,7 @@ const Menu = () => {
                     "name": "varan bhat",
                     "price": "50",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/varan_bhat.jpeg"
+                    "image": "../images/product/maharastrian/varan-bhat'.jpeg"
                 }
             },
             {
@@ -74,7 +74,7 @@ const Menu = () => {
                     "name": "dal makhni",
                     "price": "80",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/dal_makhni.jpeg"
+                    "image": "../images/product/punjabi/dal-makhni.jpeg"
                 }
             },
             {
@@ -83,7 +83,7 @@ const Menu = () => {
                     "name": "chhole bhature",
                     "price": "60",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/chhole_bhature.jpeg"
+                    "image": "../images/product/punjabi/chhole-bhature.jpeg"
                 }
             },
             {
@@ -92,7 +92,7 @@ const Menu = () => {
                     "name": "rajma chawal",
                     "price": "70",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/rajma_chawal.jpeg"
+                    "image": "../images/product/punjabi/rajma-chaval.jpeg"
                 }
             },
             {
@@ -101,7 +101,7 @@ const Menu = () => {
                     "name": "aloo paratha",
                     "price": "40",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/aloo_paratha.jpeg"
+                    "image": "../images/product/punjabi/alu-paratha.jpeg"
                 }
             },
             {
@@ -119,7 +119,7 @@ const Menu = () => {
                     "name": "paneer kulchha",
                     "price": "50",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/paneer_kulchha.jpeg"
+                    "image": "../images/product/punjabi/paneer-kulchha.jpeg"
                 }
             },
             {
@@ -137,7 +137,7 @@ const Menu = () => {
                     "name": "undhiyu",
                     "price": "80",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/undhiyu.jpeg"
+                    "image": "/images/product/gujarati/undhiyu.jpeg"
                 }
             },
             {
@@ -146,7 +146,7 @@ const Menu = () => {
                     "name": "fafda jalebi",
                     "price": "50",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/fafda_jalebi.jpeg"
+                    "image": "/images/product/gujarati/fafda-jalebi.jpeg"
                 }
             },
             {
@@ -155,16 +155,16 @@ const Menu = () => {
                     "name": "khaman",
                     "price": "30",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khaman.jpeg"
+                    "image": "images/product/gujarati/khaman.jpeg"
                 }
             },
             {
                 "id": 18,
                 "product": {
-                    "name": "handva",
+                    "name": "handvo",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/handva.jpeg"
+                    "image": "images/product/gujarati/handvo.jpeg"
                 }
             },
             {
@@ -173,7 +173,7 @@ const Menu = () => {
                     "name": "patra",
                     "price": "35",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/patra.jpeg"
+                    "image": "images/product/gujarati/patra.jpeg"
                 }
             },
             {
@@ -182,7 +182,7 @@ const Menu = () => {
                     "name": "methina gota",
                     "price": "25",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/methina_gota.jpeg"
+                    "image": "images/product/gujarati/methina-gota.jpeg"
                 }
             },
             {
@@ -191,7 +191,7 @@ const Menu = () => {
                     "name": "khakhra",
                     "price": "20",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khakhra.jpeg"
+                    "image": "images/product/gujarati/khakra.jpeg"
                 }
             },
             {
@@ -200,7 +200,7 @@ const Menu = () => {
                     "name": "ghugra",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/ghugra.jpeg"
+                    "image": "images/product/gujarati/ghugra.jpeg"
                 }
             },
             {
@@ -209,7 +209,7 @@ const Menu = () => {
                     "name": "khichu",
                     "price": "30",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khichu.jpeg"
+                    "image": "images/product/gujarati/Khichu.jpeg"
                 }
             },
             {
@@ -218,7 +218,7 @@ const Menu = () => {
                     "name": "thepla",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/thepla.jpeg"
+                    "image": "images/product/gujarati/thepla.jpeg"
                 }
             },
             {
@@ -227,7 +227,7 @@ const Menu = () => {
                     "name": "sev khamni",
                     "price": "35",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/sev_khamni.jpeg"
+                    "image": "images/product/gujarati/sev-khamni.jpeg"
                 }
             },
             {
@@ -236,7 +236,7 @@ const Menu = () => {
                     "name": "manchuriyan",
                     "price": "60",
                     "type": "chinese",
-                    "image": "../images/product/chinese/manchuriyan.jpeg"
+                    "image": "images/product/chinese/manchuriyan.jpeg"
                 }
             },
             {
@@ -245,7 +245,7 @@ const Menu = () => {
                     "name": "hakka noodles",
                     "price": "50",
                     "type": "chinese",
-                    "image": "../images/product/chinese/hakka_noodles.jpeg"
+                    "image": "images/product/chinese/Hakka-noodles.jpeg"
                 }
             },
             {
@@ -254,7 +254,7 @@ const Menu = () => {
                     "name": "momos",
                     "price": "40",
                     "type": "chinese",
-                    "image": "../images/product/chinese/momos.jpeg"
+                    "image": "images/product/chinese/momos.jpeg"
                 }
             },
             {
@@ -263,7 +263,7 @@ const Menu = () => {
                     "name": "chilli chicken",
                     "price": "100",
                     "type": "chinese",
-                    "image": "../images/product/chinese/chilli_chicken.jpeg"
+                    "image": "images/product/chinese/chilli-chicken.jpeg"
                 }
             },
             {
@@ -272,7 +272,7 @@ const Menu = () => {
                     "name": "fried rice",
                     "price": "70",
                     "type": "chinese",
-                    "image": "../images/product/chinese/fried_rice.jpeg"
+                    "image": "images/product/chinese/fried-rice.jpeg"
                 }
             },
             {
@@ -281,7 +281,7 @@ const Menu = () => {
                     "name": "maggi",
                     "price": "25",
                     "type": "chinese",
-                    "image": "../images/product/chinese/maggi.jpeg"
+                    "image": "images/product/chinese/maggi.jpeg"
                 }
             },
             {
@@ -290,7 +290,7 @@ const Menu = () => {
                     "name": "pitha",
                     "price": "30",
                     "type": "assam",
-                    "image": "../images/product/assam/pitha.jpeg"
+                    "image": "images/product/assam/pitha.jpeg"
                 }
             },
             {
@@ -299,7 +299,7 @@ const Menu = () => {
                     "name": "bamboo shoot fry",
                     "price": "50",
                     "type": "assam",
-                    "image": "../images/product/assam/bamboo_shoot_fry.jpeg"
+                    "image": "images/product/assam/Bamboo-Shoots-fry.jpeg"
                 }
             },
             {
@@ -308,7 +308,7 @@ const Menu = () => {
                     "name": "fish curry",
                     "price": "100",
                     "type": "assam",
-                    "image": "../images/product/assam/fish_curry.jpeg"
+                    "image": "images/product/assam/fish-curry.jpeg"
                 }
             },
             {
@@ -317,7 +317,7 @@ const Menu = () => {
                     "name": "fish fry",
                     "price": "80",
                     "type": "assam",
-                    "image": "../images/product/assam/fish_fry.jpeg"
+                    "image": "images/product/assam/fish-fry.jpeg"
                 }
             },
             {
@@ -326,7 +326,7 @@ const Menu = () => {
                     "name": "idli sambhar",
                     "price": "30",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/idli_sambhar.jpeg"
+                    "image": "images/product/south-indian/Idli-sambhar.jpeg"
                 }
             },
             {
@@ -335,7 +335,7 @@ const Menu = () => {
                     "name": "mendu vada",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/mendu_vada.jpeg"
+                    "image": "images/product/south-indian/Medu-Vada.jpeg"
                 }
             },
             {
@@ -344,7 +344,7 @@ const Menu = () => {
                     "name": "masala dosa",
                     "price": "50",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/masala_dosa.jpeg"
+                    "image": "images/product/south-indian/Masala-Dosa.jpeg"
                 }
             },
             {
@@ -353,7 +353,7 @@ const Menu = () => {
                     "name": "uttapam",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/uttapam.jpeg"
+                    "image": "images/product/south-indian/Uthapam.jpeg"
                 }
             },
             {
@@ -362,7 +362,7 @@ const Menu = () => {
                     "name": "appam and ishtu",
                     "price": "70",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/appam_and_ishtu.jpeg"
+                    "image": "images/product/south-indian/ishtu.jpeg"
                 }
             },
             {
@@ -371,7 +371,7 @@ const Menu = () => {
                     "name": "pesarattu",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/pesarattu.jpeg"
+                    "image": "images/product/south-indian/pesarattu.jpeg"
                 }
             },
             {
@@ -420,7 +420,7 @@ const Menu = () => {
                     "name": "vadapav",
                     "price": "20",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/vadapav.jpeg"
+                    "image": "images/product/maharastrian/vadapav.jpeg"
                 }
             },
             {
@@ -429,7 +429,7 @@ const Menu = () => {
                     "name": "pav bhaji",
                     "price": "60",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharastrian/pav-bhaji.jpeg"
+                    "image": "images/product/maharastrian/pav-bhaji.jpeg"
                 }
             },
             {
@@ -438,7 +438,7 @@ const Menu = () => {
                     "name": "puran poli",
                     "price": "50",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/puran_poli.jpeg"
+                    "image": "images/product/maharastrian/puran-poli.jpeg"
                 }
             },
             {
@@ -447,7 +447,7 @@ const Menu = () => {
                     "name": "poha",
                     "price": "25",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/poha.jpeg"
+                    "image": "images/product/maharastrian/poha.jpeg"
                 }
             },
             {
@@ -456,7 +456,7 @@ const Menu = () => {
                     "name": "misal",
                     "price": "40",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/misal.jpeg"
+                    "image": "../images/product/maharastrian/misal-pav.jpeg"
                 }
             },
             {
@@ -465,7 +465,7 @@ const Menu = () => {
                     "name": "pithla bhakri",
                     "price": "70",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/pithla_bhakri.jpeg"
+                    "image": "../images/product/maharastrian/pithla-bhakri.jpeg"
                 }
             },
             {
@@ -474,7 +474,7 @@ const Menu = () => {
                     "name": "varan bhat",
                     "price": "50",
                     "type": "maharashtrian",
-                    "image": "../images/product/maharashtrian/varan_bhat.jpeg"
+                    "image": "../images/product/maharastrian/varan-bhat'.jpeg"
                 }
             },
             {
@@ -483,7 +483,7 @@ const Menu = () => {
                     "name": "dal makhni",
                     "price": "80",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/dal_makhni.jpeg"
+                    "image": "../images/product/punjabi/dal-makhni.jpeg"
                 }
             },
             {
@@ -492,7 +492,7 @@ const Menu = () => {
                     "name": "chhole bhature",
                     "price": "60",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/chhole_bhature.jpeg"
+                    "image": "../images/product/punjabi/chhole-bhature.jpeg"
                 }
             },
             {
@@ -501,7 +501,7 @@ const Menu = () => {
                     "name": "rajma chawal",
                     "price": "70",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/rajma_chawal.jpeg"
+                    "image": "../images/product/punjabi/rajma-chaval.jpeg"
                 }
             },
             {
@@ -510,7 +510,7 @@ const Menu = () => {
                     "name": "aloo paratha",
                     "price": "40",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/aloo_paratha.jpeg"
+                    "image": "../images/product/punjabi/alu-paratha.jpeg"
                 }
             },
             {
@@ -528,7 +528,7 @@ const Menu = () => {
                     "name": "paneer kulchha",
                     "price": "50",
                     "type": "punjabi",
-                    "image": "../images/product/punjabi/paneer_kulchha.jpeg"
+                    "image": "../images/product/punjabi/paneer-kulchha.jpeg"
                 }
             },
             {
@@ -546,7 +546,7 @@ const Menu = () => {
                     "name": "undhiyu",
                     "price": "80",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/undhiyu.jpeg"
+                    "image": "/images/product/gujarati/undhiyu.jpeg"
                 }
             },
             {
@@ -555,7 +555,7 @@ const Menu = () => {
                     "name": "fafda jalebi",
                     "price": "50",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/fafda_jalebi.jpeg"
+                    "image": "/images/product/gujarati/fafda-jalebi.jpeg"
                 }
             },
             {
@@ -564,16 +564,16 @@ const Menu = () => {
                     "name": "khaman",
                     "price": "30",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khaman.jpeg"
+                    "image": "images/product/gujarati/khaman.jpeg"
                 }
             },
             {
                 "id": 18,
                 "product": {
-                    "name": "handva",
+                    "name": "handvo",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/handva.jpeg"
+                    "image": "images/product/gujarati/handvo.jpeg"
                 }
             },
             {
@@ -582,7 +582,7 @@ const Menu = () => {
                     "name": "patra",
                     "price": "35",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/patra.jpeg"
+                    "image": "images/product/gujarati/patra.jpeg"
                 }
             },
             {
@@ -591,7 +591,7 @@ const Menu = () => {
                     "name": "methina gota",
                     "price": "25",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/methina_gota.jpeg"
+                    "image": "images/product/gujarati/methina-gota.jpeg"
                 }
             },
             {
@@ -600,7 +600,7 @@ const Menu = () => {
                     "name": "khakhra",
                     "price": "20",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khakhra.jpeg"
+                    "image": "images/product/gujarati/khakra.jpeg"
                 }
             },
             {
@@ -609,7 +609,7 @@ const Menu = () => {
                     "name": "ghugra",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/ghugra.jpeg"
+                    "image": "images/product/gujarati/ghugra.jpeg"
                 }
             },
             {
@@ -618,7 +618,7 @@ const Menu = () => {
                     "name": "khichu",
                     "price": "30",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/khichu.jpeg"
+                    "image": "images/product/gujarati/Khichu.jpeg"
                 }
             },
             {
@@ -627,7 +627,7 @@ const Menu = () => {
                     "name": "thepla",
                     "price": "40",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/thepla.jpeg"
+                    "image": "images/product/gujarati/thepla.jpeg"
                 }
             },
             {
@@ -636,7 +636,7 @@ const Menu = () => {
                     "name": "sev khamni",
                     "price": "35",
                     "type": "gujarati",
-                    "image": "../images/product/gujarati/sev_khamni.jpeg"
+                    "image": "images/product/gujarati/sev-khamni.jpeg"
                 }
             },
             {
@@ -645,7 +645,7 @@ const Menu = () => {
                     "name": "manchuriyan",
                     "price": "60",
                     "type": "chinese",
-                    "image": "../images/product/chinese/manchuriyan.jpeg"
+                    "image": "images/product/chinese/manchuriyan.jpeg"
                 }
             },
             {
@@ -654,7 +654,7 @@ const Menu = () => {
                     "name": "hakka noodles",
                     "price": "50",
                     "type": "chinese",
-                    "image": "../images/product/chinese/hakka_noodles.jpeg"
+                    "image": "images/product/chinese/Hakka-noodles.jpeg"
                 }
             },
             {
@@ -663,7 +663,7 @@ const Menu = () => {
                     "name": "momos",
                     "price": "40",
                     "type": "chinese",
-                    "image": "../images/product/chinese/momos.jpeg"
+                    "image": "images/product/chinese/momos.jpeg"
                 }
             },
             {
@@ -672,7 +672,7 @@ const Menu = () => {
                     "name": "chilli chicken",
                     "price": "100",
                     "type": "chinese",
-                    "image": "../images/product/chinese/chilli_chicken.jpeg"
+                    "image": "images/product/chinese/chilli-chicken.jpeg"
                 }
             },
             {
@@ -681,7 +681,7 @@ const Menu = () => {
                     "name": "fried rice",
                     "price": "70",
                     "type": "chinese",
-                    "image": "../images/product/chinese/fried_rice.jpeg"
+                    "image": "images/product/chinese/fried-rice.jpeg"
                 }
             },
             {
@@ -690,7 +690,7 @@ const Menu = () => {
                     "name": "maggi",
                     "price": "25",
                     "type": "chinese",
-                    "image": "../images/product/chinese/maggi.jpeg"
+                    "image": "images/product/chinese/maggi.jpeg"
                 }
             },
             {
@@ -699,7 +699,7 @@ const Menu = () => {
                     "name": "pitha",
                     "price": "30",
                     "type": "assam",
-                    "image": "../images/product/assam/pitha.jpeg"
+                    "image": "images/product/assam/pitha.jpeg"
                 }
             },
             {
@@ -708,7 +708,7 @@ const Menu = () => {
                     "name": "bamboo shoot fry",
                     "price": "50",
                     "type": "assam",
-                    "image": "../images/product/assam/bamboo_shoot_fry.jpeg"
+                    "image": "images/product/assam/Bamboo-Shoots-fry.jpeg"
                 }
             },
             {
@@ -717,7 +717,7 @@ const Menu = () => {
                     "name": "fish curry",
                     "price": "100",
                     "type": "assam",
-                    "image": "../images/product/assam/fish_curry.jpeg"
+                    "image": "images/product/assam/fish-curry.jpeg"
                 }
             },
             {
@@ -726,7 +726,7 @@ const Menu = () => {
                     "name": "fish fry",
                     "price": "80",
                     "type": "assam",
-                    "image": "../images/product/assam/fish_fry.jpeg"
+                    "image": "images/product/assam/fish-fry.jpeg"
                 }
             },
             {
@@ -735,7 +735,7 @@ const Menu = () => {
                     "name": "idli sambhar",
                     "price": "30",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/idli_sambhar.jpeg"
+                    "image": "images/product/south-indian/Idli-sambhar.jpeg"
                 }
             },
             {
@@ -744,7 +744,7 @@ const Menu = () => {
                     "name": "mendu vada",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/mendu_vada.jpeg"
+                    "image": "images/product/south-indian/Medu-Vada.jpeg"
                 }
             },
             {
@@ -753,7 +753,7 @@ const Menu = () => {
                     "name": "masala dosa",
                     "price": "50",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/masala_dosa.jpeg"
+                    "image": "images/product/south-indian/Masala-Dosa.jpeg"
                 }
             },
             {
@@ -762,7 +762,7 @@ const Menu = () => {
                     "name": "uttapam",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/uttapam.jpeg"
+                    "image": "images/product/south-indian/Uthapam.jpeg"
                 }
             },
             {
@@ -771,7 +771,7 @@ const Menu = () => {
                     "name": "appam and ishtu",
                     "price": "70",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/appam_and_ishtu.jpeg"
+                    "image": "images/product/south-indian/ishtu.jpeg"
                 }
             },
             {
@@ -780,7 +780,7 @@ const Menu = () => {
                     "name": "pesarattu",
                     "price": "40",
                     "type": "south indian",
-                    "image": "../images/product/south_indian/pesarattu.jpeg"
+                    "image": "images/product/south-indian/pesarattu.jpeg"
                 }
             },
             {
@@ -919,7 +919,6 @@ const Menu = () => {
                                 price={item.product?.price}
                                 typeoff={item.product?.type}
                                 imge={item.product?.image}
-
                             />
                         ))
                     )}
