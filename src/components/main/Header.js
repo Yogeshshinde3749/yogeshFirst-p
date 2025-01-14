@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <h1>Yogesh</h1>
+                <h1>E-Menu</h1>
                 <nav>
                     <Link to="/" onClick={handleActive} className="active">Menu</Link>
                     <Link to="/cart" onClick={handleActive}>Cart <div>{data.length}</div></Link>

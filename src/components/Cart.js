@@ -50,6 +50,8 @@ const Cart = () => {
                         )}
                     </div>
                     <button onClick={handleOrder}>Order</button>
+                    <img src="https://i.pinimg.com/736x/96/7d/b6/967db683e191acc49969bfd49a0c1056.jpg" alt="" className="bg-wallpaper"/>
+
                 </>
             )}
         </>

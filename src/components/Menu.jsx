@@ -820,9 +820,9 @@ const Menu = () => {
 
     }, []);
 
-    const Siz = (e) => {
-        setSizePattern(e.target.innerText);
-    };
+    // const Siz = (e) => {
+    //     setSizePattern(e.target.innerText);
+    // };
 
     const HandleFoodType = (choosed) => {
         const selectedType = choosed.target.innerText.toLowerCase();
@@ -844,16 +844,17 @@ const Menu = () => {
         }
     };
     const handleVarity = () => {
-        if (display === "block") {
+        if (display === "visi") {
             setDisplay("none")
         }
         else {
-            setDisplay("block")
+            setDisplay("visi")
         }
     }
 
     return (
         <div className="pt-4 food-menu-body">
+            <img src="https://i.pinimg.com/736x/96/7d/b6/967db683e191acc49969bfd49a0c1056.jpg" alt="" className="bg-wallpaper"/>
             <div className="info-web">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13V8m0 8h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -890,13 +891,15 @@ const Menu = () => {
                         ))}
                     </div>
                 </section>
-                <div className="sizeBtn">
+                {/* <div className="sizeBtn">
                     <button onClick={Siz}>Auto</button>
                     <button onClick={Siz}>||</button>
-                </div>
+                    <button onClick={Siz}>|||</button>
+
+                </div> */}
             </div>
             {sizePattern === "||" ? (
-                <div className="menuSm">
+                <div className="menuSm pt-3">
                     {filterFoodType.length === 0 ? (
                         <h1>NO PRODUCT FOUND</h1>
                     ) : (
@@ -912,7 +915,7 @@ const Menu = () => {
                     )}
                 </div>
             ) : (
-                <div className="menu">
+                <div className="menu pt-3">
                     {filterFoodType.length === 0 ? (
                         <h1>NO PRODUCT FOUND</h1>
                     ) : (
