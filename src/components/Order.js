@@ -3,19 +3,33 @@ import { useEffect, useState } from "react";
 
 const Order = () => {
     const [data, setData] = useState([]);
-
+    const [totalPrice, setTotalPrice] = useState(0); // Initialize with 0
+  
     useEffect(() => {
-        const localData = localStorage.getItem("OrderList");
-        if (localData) {
-            const orders = JSON.parse(localData);
-            setData(orders);
-        }
-    }, []);
+      const localData = localStorage.getItem("OrderList");
+      if (localData) {
+        const orders = JSON.parse(localData); // Parse the string to JSON
+        setData(orders);
+  
+        const calculatedTotalPrice = orders.reduce((total, element) => {
+          return total + element.product.price * element.product.quantity;
+        }, 0); // Start with 0 as the initial value
+  
+        setTotalPrice(calculatedTotalPrice); // Set the total price
+      }
+    }, [data]);
 
     const deleteHandler = (e) => {
         const filterData = data.filter((y) => y.id  !== Number(e.target.className))
         setData(filterData )
+        localStorage.setItem('OrderList', JSON.stringify(filterData));
+
     }
+    console.log(totalPrice)
+
+    
+
+
 
     return (
         <>
@@ -53,6 +67,9 @@ const Order = () => {
                         )}
                     </tbody>
                 </table>
+                <div className="bill-box">
+                    <h3>Total Pay : ${totalPrice}</h3>
+                </div>
             </div>
         </>
     );

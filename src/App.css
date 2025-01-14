@@ -376,24 +376,39 @@ header {
 /************************************ order ***************************************/
 
 .order {
-
+  width: 100%;
   table,
   td,
   th {
-    border: 5px solid white;
+    border: 1px solid white;
     background-color: #808080;
     border-collapse: collapse;
     text-align: start;
+    width: 100%;
+
+  }
+  th:nth-child(1){
+    width: max-content;
   }
 
   th,
   td {
-    padding: 10px;
+    padding: 5px;
+    font-size: 10px;
   }
 
   table {
     width: 90%;
     margin: 10px auto 0 auto;
+  }
+  button{
+    backdrop-filter: blur(18px);
+    background-color: transparent;
+    border:  none ;
+  }
+  .bill-box{
+    padding: 10px 0px;
+    margin: 10px;
   }
 }
 
